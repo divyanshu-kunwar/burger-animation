@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#lowerbase{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform : translate(50px , -50px) rotateZ(10deg);
+}
+#lettuce{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform : translate(0px , 25px);
+}
+#cheese{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform : translate(-20px , 45px);
+}
+#onion{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform: scale(0.95) translate(40px , 66px);
+}
+#meat{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform: translate(-10px , 100px);
+}
+#tomato{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform: scale(0.9) translate(10px , 190px) rotate(-5deg);
+}
+#cucumber{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform:scale(0.95) translate(-20px , 270px) rotate(-15deg);
+}
+#upperbase{
+    animation: expand 6s infinite ease-out;
+    animation-direction: alternate-reverse;
+    transform: translate(-50px , 320px) rotate(-25deg);
+}
+@keyframes expand {
+    to{transform: translate(0px , 0px) scale(1) rotate(0);}
+}
