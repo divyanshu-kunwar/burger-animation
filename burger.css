@@ -5,6 +5,7 @@ body{
     justify-content: center;
     padding-top: 10%;
     padding-bottom: 10%;
+    overflow: hidden;
 }
 #lowerbase{
     animation: expand 6s infinite ease-out;
